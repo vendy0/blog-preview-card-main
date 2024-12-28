@@ -1,42 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <title>Frontend Mentor | Blog preview card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-	<title>Frontend Mentor | Blog preview card</title>
-	<link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <article class="card-container">
+      <section class="img-container">
+        <img src="./assets/images/illustration-article.svg" alt="Html and Css Fondation Article" />
+      </section>
+      <section class="info-container">
+        <span class="category">Learning</span>
 
-<body>
-	<div class="card-container">
-		<div class="img-container">
-			<img src="./assets/images/illustration-article.svg" alt="">
-		</div>
-		<div class="info-container">
-			<span class="category">Learning</span>
+        <div class="publication">Published 21 Dec 2023</div>
 
-			<div class="publication">Published 21 Dec 2023</div>
+        <h2 class="title">HTML &#38; CSS foundations</h2>
 
-			<h2 class="title">HTML &#38; CSS foundations</h2>
+        <p class="paragraph">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
 
-			<p class="paragraph">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+        <div class="author-container">
+          <div class="author-img">
+            <img
+              class="profil"
+              src="./assets/images/image-avatar.webp"
+              alt="Avatar Icon"
+            />
+          </div>
+          <div class="author-name">Greg Hooper</div>
+        </div>
+      </section>
+    </article>
 
-			<div class="author-container">
-				<div class="author-img">
-				<img class="profil" src="./assets/images/image-avatar.webp" alt=""></div>
-				<div class="author-name">Greg Hooper</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="attribution">
-		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-		Coded by <a href="#">Vendy</a>.
-	</div>
-</body>
-
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://www.instagram.com/kly.privvv/profilecard/?igsh=cDlqenY1dHY4ZWF3"
+        >Vendy</a
+      >.
+    </div>
+  </body>
 </html>
