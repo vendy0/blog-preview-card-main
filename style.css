@@ -1,116 +1,108 @@
 @font-face {
-	font-family: 'figtree';
-	src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format: 'truetype';
-	font-style: normal;
-	font-weight: normal;
+  font-family: "figtree";
+  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf") format ("truetype");
+  font-style: normal;
+  font-weight: normal;
 }
 
-@font-face {
-	font-family: 'figtree';
-	src: url('./assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format: 'truetype';
-	font-style: italic;
-	font-weight: normal;
-}
 
 body {
-	position: relative;
-	color: hsl(0, 0%, 7%)#000;
-	line-height: 1.5rem;
-	min-height: 100vh;
-	font-family: 'figtree', sans-serif;
-	display: flex;
-	-webkit-flex-direction: column;
-	-moz-flex-direction: column;
-	-ms-flex-direction: column;
-	-o-flex-direction: column;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	background: hsl(47, 88%, 63%);
+  position: relative;
+  color: hsl(0, 0%, 7%) #000;
+  line-height: 1.5rem;
+  min-height: 100vh;
+  font-family: "figtree", sans-serif;
+  font-style: normal;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: hsl(47, 88%, 63%);
 }
 
 .card-container {
-	padding: 20px;
-	max-width: 280px;
-	background: hsl(0, 0%, 100%);
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	-webkit-flex-direction: column;
-	-moz-flex-direction: column;
-	-ms-flex-direction: column;
-	-o-flex-direction: column;
-	flex-direction: column;
-	-ms-align-items: center;
-	align-items: center;
-	justify-content: center;
-	border-radius: 20px;
-	box-shadow: 10px 10px 0 0 black;
-
+  padding: 20px;
+  max-width: 300px;
+  background: hsl(0, 0%, 100%);
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: 10px 10px 0 0 black;
 }
 
 .img-container img {
-	width: 100%;
-	border-radius: 10px;
+  width: 100%;
+  border-radius: 10px;
 }
-.info-container{
-	padding-top: 10px;
-	margin: auto;
+.info-container {
+  padding-top: 10px;
+  margin: auto;
 }
-.category{
-	font-weight: bold;
-	border-radius: 5px;
-	padding: 5px;
-	background: hsl(47, 88%, 63%);
+.category {
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
+  background: hsl(47, 88%, 63%);
 }
-.publication{
-	font-size: 14px;
-	font-weight: 500;
-	padding: 0;
-	margin: 15px 0; 
+.publication {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  margin: 15px 0;
 }
-.title{
-	font-size: 1.2rem;
+.title {
+  font-size: 1.2rem;
 }
-.paragraph{
-	color: hsl(0, 0%, 42%);
+.paragraph {
+  color: hsl(0, 0%, 42%);
 }
-.author-container{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	gap: 15px;
+.author-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
 }
-.author-img{
-	width: 40px;
-
+.author-img {
+  width: 40px;
 }
-.author-img img{
-	width: 100%;
-}
-
-.author-name{
-	font-size: 15px;
-	font-weight: bold;
+.author-img img {
+  width: 100%;
 }
 
+.author-name {
+  font-size: 15px;
+  font-weight: bold;
+}
 
 .attribution {
-	display: block;
-	width: 100%;
-	font-size: 10px;
-	font-weight: bold;
-	padding: 20px;
-	position: absolute;
-	font-size: 11px;
-	text-align: center;
-	bottom: 0;
-	background: linear-gradient(to top, #00000080, transparent);
+  display: block;
+  width: 100%;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 20px;
+  position: absolute;
+  font-size: 11px;
+  text-align: center;
+  bottom: 0;
+  background: linear-gradient(to top, #00000080, transparent);
 }
 
 .attribution a {
-	color: hsl(228, 45%, 44%);
-	text-decoration: none;
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
 }
